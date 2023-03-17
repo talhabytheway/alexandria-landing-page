@@ -11,8 +11,8 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <div className="relative">
-    <div className="bg-[url('./assets/hero-bg.png')] bg-no-repeat bg-[length:auto_100%] md:bg-cover  bg-center">
+    <div className="relative bg-[#F6F6F6]">
+    <div className="bg-[url('./assets/hero-png.png')] bg-no-repeat bg-[length:auto_100%] md:bg-cover  bg-center">
     <div className="bg-[url('./assets/heroArch.png')] bg-no-repeat lg:bg-[length:100%_100%] bg-[length:100%_100vh] " >
       <Nav />
       <Hero />
@@ -20,6 +20,36 @@ function App() {
     </div>
     </div>
     <div className="">
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
+      <Welcome />
+      <Publish />
+      <Benefit />
+      <Subscribe />
+      <Footer />
       <Welcome />
       <Publish />
       <Benefit />
