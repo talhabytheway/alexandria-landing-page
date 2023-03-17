@@ -28,25 +28,25 @@ const Feature = () => {
             src={arrow}
             onClick={() => carouselRef.current.slidePrev()}
             alt="left"
-            className="cursor-pointer"
+            className="cursor-pointer mx-2"
           />
           <img
             src={arrow}
             onClick={() => carouselRef.current.slideNext()}
             alt="right"
-            className="rotate-180 cursor-pointer"
+            className="rotate-180 cursor-pointer mx-2"
           />
         </div>
       </div>
       <div className="">
         <Carousel ref={carouselRef} breakPoints={breakPoints} className="py-4">
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] md:aspect-auto[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
@@ -62,12 +62,12 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] md:aspect-auto[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
@@ -83,12 +83,12 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
@@ -106,12 +106,12 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] md:aspect-auto[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
@@ -127,12 +127,12 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] md:aspect-auto[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
@@ -148,12 +148,12 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
                   alt=""
-                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                  className="rounded-lg !aspect-[1] md:!aspect-[332/487] md:aspect-auto[332/487] object-bottom object-cover"
                 />
               </div>
               <div className="pt-4 md:hidden">
