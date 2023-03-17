@@ -25,36 +25,6 @@ function App() {
       <Benefit />
       <Subscribe />
       <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
-      <Welcome />
-      <Publish />
-      <Benefit />
-      <Subscribe />
-      <Footer />
     </div>
     </div>
   );
