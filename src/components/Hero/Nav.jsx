@@ -8,14 +8,14 @@ const Nav = () => {
   const [open, setopen] = React.useState(false);
   return (
     <header
-      className={`text-white backdrop-blur-[13px] w-[100vw] !fixed !top-0 md:backdrop-blur-sm z-10 ${
-        open
-          ? "bg-opacity-100 lg:bg-opacity-40 bg-dark lg:bg-transparent"
-          : "bg-opacity-40 bg-none"
-      }`}
+      className={`text-white w-[100vw] backdrop-blur-[13px] mx-auto !fixed !top-0 md:backdrop-blur-sm z-[1000]`}
     >
       <div
-        className={` xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1440px] font-nunito flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650`}
+        className={`w-[100vw] xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1500px] font-nunito flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650 ${
+          open
+            ? "bg-opacity-100 lg:bg-opacity-40 bg-dark lg:bg-transparent"
+            : "bg-opacity-40 bg-none"
+        }`}
       >
         <img
           src={logo}
@@ -24,7 +24,7 @@ const Nav = () => {
         />
 
         <ul
-          className={`block absolute px-[1.5rem] md:px-[3rem] lg:flex align-right lg:items-center !z-[100] transition-all ease-in duration-500 w-[100vw] left-[0] lg:w-auto lg:z-auto lg:static  lg:bg-none  lg:space-x-10 space-y-2.5 lg:space-y-0 my-auto p-3 lg:mb-auto hover:[&>*]:text-purp hover:[&>*]:lg:text-purp hover:[&>*]:duration-500 opacity-100 hover:[&>*]:cursor-pointer ${
+          className={`block absolute px-[1.5rem] md:px-[3rem] lg:flex align-right lg:items-center !z-[100] transition-all ease-in duration-500 w-[100vw] left-[0] lg:w-auto lg:z-auto lg:static  lg:bg-none  lg:space-x-10 space-y-2.5 lg:space-y-0 my-auto p-3 lg:p-0 lg:mb-auto hover:[&>*]:text-purp hover:[&>*]:lg:text-purp hover:[&>*]:duration-500 opacity-100 hover:[&>*]:cursor-pointer ${
             open
               ? " top-[55px] md:top-[80px] opacity-100 bg-dark lg:bg-transparent"
               : " top-[-300px] opacity-0"
