@@ -23,3 +23,10 @@ code {
       -1px 1px 0 #000;
   }
 }
+
+.rec-arrow, .rec-pagination {
+  display: none !important
+}
+.active {
+  color: #6B60EB
+}

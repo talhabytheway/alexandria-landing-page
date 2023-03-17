@@ -1,9 +1,185 @@
-import React from 'react'
+import React, { useRef } from "react";
+import Carousel from "react-elastic-carousel";
+
+import Item from "./Item";
+
+import arrow from "./../../assets/arrow.svg";
+import moby from "./../../assets/moby.png";
+import war from "./../../assets/war.png";
+import leagues from "./../../assets/leagues.png";
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 768, itemsToShow: 2 },
+  { width: 1024, itemsToShow: 3 },
+];
 
 const Feature = () => {
-  return (
-    <div>Feature</div>
-  )
-}
+  const carouselRef = useRef(null);
 
-export default Feature
+  return (
+    <div className="pt-10 md:pt-14 lg:pt-16 w-[100vw] justify-between xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1500px]">
+      <div className="flex flex-wrap justify-between flex-col md:flex-row gap-6 md:gap-0 text-center md:text-left">
+        <h2 className="text-dark font-prata text-[24px] md:text-[36px] lg:text-[40px]">
+          FEATURED <span className="text-blue">WORKS</span>
+        </h2>
+        <div className="flex gap-10 mx-auto md:mx-0 pb-4">
+          <img
+            src={arrow}
+            onClick={() => carouselRef.current.slidePrev()}
+            alt="left"
+            className="cursor-pointer"
+          />
+          <img
+            src={arrow}
+            onClick={() => carouselRef.current.slideNext()}
+            alt="right"
+            className="rotate-180 cursor-pointer"
+          />
+        </div>
+      </div>
+      <div className="">
+        <Carousel ref={carouselRef} breakPoints={breakPoints} className="py-4">
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={moby}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">Moby Dick</h4>
+                <p className="font-open text-[14px]">
+                  Herman Melville | Collector’s Edition
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 0.25 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={war}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">The War of The Worlds</h4>
+                <p className="font-open text-[14px]">
+                  H.G. Wells | Collector’s Edition
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 0.19 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={leagues}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">
+                  20,000 Leagues Under The Sea
+                </h4>
+                <p className="font-open text-[14px]">
+                  Jules Verne, Victoria Bloke
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 1.3 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={moby}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">Moby Dick</h4>
+                <p className="font-open text-[14px]">
+                  Herman Melville | Collector’s Edition
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 0.25 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={war}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">The War of The Worlds</h4>
+                <p className="font-open text-[14px]">
+                  H.G. Wells | Collector’s Edition
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 0.19 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+          <Item>
+            <div className="cursor-pointer p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+              <div className="">
+                <img
+                  src={leagues}
+                  alt=""
+                  className="rounded-lg !aspect-[1] object-bottom object-cover"
+                />
+              </div>
+              <div className="pt-4 md:hidden">
+                <h4 className="font-bold font-open">
+                  20,000 Leagues Under The Sea
+                </h4>
+                <p className="font-open text-[14px]">
+                  Jules Verne, Victoria Bloke
+                </p>
+                <div className="flex justify-between font-open font-semibold">
+                  <span>...</span>
+                  <span>♦ 1.3 ETH</span>
+                </div>
+              </div>
+            </div>
+          </Item>
+        </Carousel>
+      </div>
+      <h4 className="font-prata text-center text-dark text-[24px] md:text-[28px] lg:text-[32px]">
+        Want to add your work?
+      </h4>
+      <button className="mx-auto my-2 block text-white font-medium px-10 py-3 border text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
+        CONTACT US
+      </button>
+    </div>
+  );
+};
+
+export default Feature;
