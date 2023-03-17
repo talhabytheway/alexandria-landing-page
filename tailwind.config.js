@@ -9,6 +9,7 @@ module.exports = {
         navy: "#303365",
         dark: "#0E0F1E",
         pink: "#CE5FE5",
+        grey: "#f6f6f6",
       },
       fontFamily: {
         prata: ["Prata", "serif"],
