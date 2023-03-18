@@ -11,7 +11,7 @@ const Publish = () => {
           <img
             src={book}
             alt=""
-            className=" absolute top-[-40%] sm:top-[-20%] md:top-[-20%] lg:top-auto lg:bottom-[35%] backdrop-blur-[13px] rounded-2xl max-w-[80%] md:max-w-[60%] lg:max-w-[40%] xl:max-w-[60%] mx-auto left-0 right-0 lg:left-auto lg:right-auto lg:mx-0"
+            className=" absolute top-[-40%] sm:top-[-20%] md:top-[-20%] lg:top-auto lg:bottom-[35%] backdrop-blur-[13px] bg-white bg-opacity-[15%] rounded-2xl max-w-[80%] md:max-w-[60%] lg:max-w-[40%] xl:max-w-[60%] mx-auto left-0 right-0 lg:left-auto lg:right-auto lg:mx-0"
           />
         </div>
         <div className="text-white w-full lg:w-[50%]  flex flex-col gap-2 lg:gap-6">
