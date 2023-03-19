@@ -1,6 +1,6 @@
-# Alexendria
+# Alexandria
 
-This project is hosted at [Surge 🔗](https://talha-alexendria.surge.sh).
+This project is hosted at [Surge 🔗](https://talha-alexandria.surge.sh).
 
 ## Your books on-chain
 
