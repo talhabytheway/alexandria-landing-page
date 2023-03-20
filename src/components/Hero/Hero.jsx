@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row gap-3 md:gap-5 pt-6 [&>*]:lg:inline-block [&>*]:block">
         <button className=" text-white font-medium px-10 py-3 border text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr"> <img src={send} alt="" className="inline-block pl-2" /> EXPLORE</button>
         <button
-            className={`font-bold transition-all ease-in duration-500 px-10 py-3 border text-[20px] rounded-md hover:cursor-pointer hover:duration-500 text-purp bg-white hover:bg-navy inline-block `}
+            className={`font-bold transition-all ease-in duration-500 px-10 py-3 text-[20px] rounded-md hover:cursor-pointer hover:duration-500 text-purp bg-white hover:bg-navy inline-block `}
           >
             PUBLISH
           </button>

@@ -37,6 +37,18 @@ const Nav = () => {
               offset={-70}
               duration={500}
               activeClass="active"
+              to="about"
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              activeClass="active"
               to="authors"
             >
               Authors
