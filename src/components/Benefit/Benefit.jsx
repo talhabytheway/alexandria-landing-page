@@ -20,7 +20,7 @@ const Benefit = () => {
           <h2 className="text-dark font-prata text-[40px] md:text-[44px] lg:text-[48px] text-left md:text-center">
             DISCOVER THE <span className="text-blue">BENEFITS</span>
           </h2>
-          <div className="grid grid-col-2 md:grid-cols-4 xl:grid-cols-6 gap-10 mt-16 justify-items-center mx-auto">
+          <div className="grid grid-col-2 md:grid-cols-4 xl:grid-cols-6 gap-10 mt-16 justify-items-center mx-auto [&>div]:rounded-lg">
             <div className="w-full max-w-[390px] p-8 bg-white flex flex-col gap-4 col-span-2">
               <img src={pencil} alt="" className="w-[56px]" />
               <h5 className="text-[32px] md:text-[36px] xl:text-[40px] font-prata text-[#21233B]">
