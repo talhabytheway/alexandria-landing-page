@@ -8,7 +8,7 @@ const Nav = () => {
   const [open, setopen] = React.useState(false);
   return (
     <header
-      className={`text-white w-[100vw] backdrop-blur-[13px] mx-auto !fixed !top-0 md:backdrop-blur-sm z-[1000]`}
+      className={`text-white w-[100vw] mx-auto !fixed !top-0 z-[1000]`}
     >
       <div
         className={`w-[100vw] xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1500px] font-nunito flex py-5 justify-between text-[18px] font-semibold select-none transition-all ease-linear duration-650 ${

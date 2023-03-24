@@ -41,7 +41,7 @@ const Feature = () => {
       <div className="">
         <Carousel ref={carouselRef} breakPoints={breakPoints} className="py-4">
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:!text-white hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
