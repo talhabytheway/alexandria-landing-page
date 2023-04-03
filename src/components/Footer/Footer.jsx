@@ -7,7 +7,7 @@ import twitter from '../../assets/twitter.svg'
 const Footer = () => {
   return (
     <div className="bg-[#0E0F1E] text-[#F6F6F6] font-open mt-24 md:">
-      <div className="py-10 md:py-16 lg:py-20 xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1500px] flex flex-col gap-6 lg:flex-row justify-between w-full">
+      <div className="py-10 md:py-16 lg:py-20 xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6.75rem] lg:max-w-[1500px] flex flex-col gap-6 lg:flex-row justify-between w-full">
         <div className="">
           <img src={logo} alt="" className="h-12 mb-6 mx-auto lg:mx-0"/>
           <span className="hidden lg:block text-[14px]">© 2022 Alexandria Labs. All Right Reserved</span>

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import Carousel from "react-elastic-carousel";
 
 import Item from "./Item";
@@ -9,17 +9,24 @@ import war from "./../../assets/war.png";
 import leagues from "./../../assets/leagues.png";
 
 const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 768, itemsToShow: 2 },
-  { width: 1024, itemsToShow: 3 },
+  { width: 1, itemsToShow: 1,},
+  { width: 768, itemsToShow: 2,},
+  { width: 1024, itemsToShow: 3,},
 ];
 
 const Feature = () => {
   const carouselRef = useRef(null);
+  const [width, setWidth] = useState(window.innerWidth)
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
 
   return (
-    <div className="py-10 md:py-14 lg:py-16 w-[100vw] justify-between xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6rem] lg:max-w-[1500px]">
-      <div className="flex flex-wrap justify-between flex-col md:flex-row gap-6 md:gap-0 text-center md:text-left">
+    <div className="py-10 md:py-14 lg:py-16 w-[100vw] justify-between xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-0 lg:max-w-[1440px]">
+      <div className="flex flex-wrap justify-between flex-col md:flex-row gap-5 md:gap-0 text-center md:text-left md:px-[3rem] lg:px-[6rem] lg:pb-12 pb-8 pt-6 ">
         <h2 className="text-dark font-prata text-[24px] md:text-[36px] lg:text-[40px]">
           FEATURED <span className="text-blue">WORKS</span>
         </h2>
@@ -39,9 +46,9 @@ const Feature = () => {
         </div>
       </div>
       <div className="">
-        <Carousel ref={carouselRef} breakPoints={breakPoints} className="py-4">
+        <Carousel ref={carouselRef} breakPoints={breakPoints} className=""  outerSpacing={width>= 1024 ? 70 : 0}>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:!text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:!text-white hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
@@ -62,7 +69,7 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
@@ -83,7 +90,7 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
@@ -106,7 +113,7 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
@@ -127,7 +134,7 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
@@ -148,7 +155,7 @@ const Feature = () => {
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
@@ -172,10 +179,10 @@ const Feature = () => {
           </Item>
         </Carousel>
       </div>
-      <h4 className="font-prata text-center text-dark text-[24px] md:text-[28px] lg:text-[32px] pt-12">
+      <h4 className="font-prata text-center text-dark text-[24px] md:text-[28px] lg:text-[32px] pt-8 lg:pt-[76px]">
         Want to add your work?
       </h4>
-      <button className="mx-auto my-2 block text-white font-medium px-10 py-3 border text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
+      <button className="mx-auto my-2 block text-white font-medium px-10 py-3 border md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
         CONTACT US
       </button>
     </div>

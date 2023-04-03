@@ -10,9 +10,9 @@ const Hero = () => {
         <h1 className="text-[40px] md:text-[64px] lg:text-[96px] text-white font-prata textshad">Your books on<span className="hidden lg:inline">-</span><span className="lg:hidden"> </span>chain</h1>
         <p className="text-white text-[20px] md:text-[26px] lg:text-[32px] drop-shadow-md">The storefront you need to publish and sell books as NFTs</p>
         <div className="flex flex-col lg:flex-row gap-3 md:gap-5 pt-6 [&>*]:lg:inline-block [&>*]:block">
-        <button className=" text-white font-medium px-10 py-3 text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr"> <img src={send} alt="" className="inline-block pl-2" /> EXPLORE</button>
+        <button className=" text-white font-medium px-10 py-3 md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr"> <img src={send} alt="" className="inline-block pl-2 h-[24px] md:h-auto" /> EXPLORE</button>
         <button
-            className={`font-bold transition-all ease-in duration-500 px-10 py-3 text-[20px] rounded-md hover:cursor-pointer hover:duration-500 text-purp bg-white hover:bg-navy inline-block `}
+            className={`font-bold transition-all ease-in duration-500 px-10 py-3 md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 text-purp bg-white hover:bg-navy inline-block `}
           >
             PUBLISH
           </button>

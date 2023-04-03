@@ -23,6 +23,9 @@ code {
       -1px 1px 0 #000;
   }
 }
+.rec-slider-container {
+  margin: 0 !important;
+}
 
 .rec-arrow, .rec-pagination {
   display: none !important

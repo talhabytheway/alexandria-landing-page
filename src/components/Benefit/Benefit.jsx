@@ -47,7 +47,7 @@ const Benefit = () => {
             </div>
             <div className="w-full max-w-[380px] p-8 bg-white flex flex-col gap-4 col-span-2">
               <img src={document} alt="" className="w-[56px]" />
-              <h5 className="text-[3px] md:text-[34px] xl:text-[38px] font-prata text-[#21233B]">
+              <h5 className="text-[32px] md:text-[34px] xl:text-[38px] font-prata text-[#21233B]">
                 Platform Reader
               </h5>
               <p className="text-[#303365] text-[16px] md:text-[18px] lg:text-[20px]">
