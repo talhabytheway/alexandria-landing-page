@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <div className="relative bg-[#F6F6F6]">
-    <div className="bg-[url('./assets/hero-png.png')] bg-no-repeat bg-[length:auto_100%] md:bg-cover  bg-center">
+    <div className="bg-[url('./assets/hero-png.png')] bg-no-repeat bg-top bg-[length:cover_70%] md:bg-[length:cover_67%] xxl:bg-[length:auto_85%]">
     <div className="bg-[url('./assets/heroArch.png')] bg-no-repeat lg:bg-[length:100%_100%] bg-[length:100%_100vh] " >
       <Nav />
       <Hero />

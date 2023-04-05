@@ -182,7 +182,7 @@ const Feature = () => {
       <h4 className="font-prata text-center text-dark text-[24px] md:text-[28px] lg:text-[32px] pt-8 lg:pt-[76px]">
         Want to add your work?
       </h4>
-      <button className="mx-auto my-2 block text-white font-medium px-10 py-3 border md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
+      <button className="mx-auto mt-6 block text-white font-medium px-10 py-3 border md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
         CONTACT US
       </button>
     </div>

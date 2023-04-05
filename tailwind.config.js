@@ -15,6 +15,9 @@ module.exports = {
         prata: ["Prata", "serif"],
         open: ["Open Sans", "sans-serif"],
       },
+      screens: {
+        xxl : '1440px'
+      }
     },
   },
   plugins: [],

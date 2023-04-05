@@ -20,7 +20,7 @@ const Nav = () => {
         <img
           src={logo}
           alt="Alexendria"
-          className="h-5 sm:h-6 md:h-8 lg:h-10 my-auto hover:cursor-pointer"
+          className="h-5 sm:h-6 md:h-8 lg:h-14 my-auto hover:cursor-pointer"
         />
 
         <ul
