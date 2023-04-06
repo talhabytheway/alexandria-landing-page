@@ -16,7 +16,7 @@ const Footer = () => {
               <a href="https://www.twitter.com/_talhaism"><img src={discord} alt="" className="inline h-[35px]" /></a>
             </span>
         </div>
-        <div className=" flex flex-row space-between justify-center flex-wrap [&>ul]:flex-col [&>ul]:h-full [&>ul]:gap-4 [&>ul]:flex-wrap [&>ul]:justify-center w-full lg:w-fit gap-6 md:gap-10 lg:gap-16 [&>ul>li]:cursor-pointer">
+        <div className=" flex flex-row justify-between sm:justify-center flex-wrap [&>ul]:flex-col [&>ul]:h-full [&>ul]:gap-4 [&>ul]:flex-wrap [&>ul]:justify-center w-full lg:w-fit gap-6 md:gap-10 lg:gap-16 [&>ul>li]:cursor-pointer">
             <ul className="flex">
               <li>About</li>
               <li>Early Access</li>
