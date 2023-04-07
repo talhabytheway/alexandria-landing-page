@@ -15,17 +15,17 @@ const Subscribe = () => {
             Duis non orci justo. Nulla lobortis, elit ac imperdiet
           </p>
         </div>
-        <div className="w-full max-w-[600px] flex h-[50px] items-center">
+        <div className="w-full max-w-[600px] flex items-center">
           <input
             type="text"
             name=""
             id=""
             placeholder="Enter your email address"
-            className="w-[70%] sm:w-[80%] inline-block h-full rounded-lg focus-visible:outline-[#DEDFE2] border-2 border-r-0 rounded-r-none md:border-l-2 md:rounded-r-lg pl-6 leading-[24px] border-[#DEDFE2]"
+            className="w-[100%] inline-block h-full rounded-lg focus-visible:outline-none py-[12px] px-[14px] md:py-[14px] md:px-[24px]"
           />
-          <div className="w-[30%] rounded-r-lg sm:w-[20%]"><div className="text-[14px] lg:text-[16px] font-open bg-blue cursor-pointer text-center text-white font-medium rounded-lg rounded-l-none md:rounded-l-lg py-[15px] lg:py-[14px]">
+          <div className="text-[16px] font-open bg-blue cursor-pointer text-center text-white font-medium rounded-lg py-[12px] px-[24px] md:py-[14px] md:px-[48px]">
             SEND
-          </div></div>
+          </div>
         </div>
       </div>
     </div>
