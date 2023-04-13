@@ -5,7 +5,7 @@ import document from "../../assets/document.svg";
 import pencil from "../../assets/pencil.svg";
 import pencilSquare from "../../assets/pencilSquare.svg";
 import paper from "../../assets/paper.svg";
-import send from "../../assets/sendP.svg";
+import send from "../../assets/send.svg";
 
 const Benefit = () => {
   return (

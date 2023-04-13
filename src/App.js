@@ -1,5 +1,4 @@
 import React from "react";
-// import heroBg from './assets/hero-bg-mobile.png'
 
 import Hero from "./components/Hero/Hero";
 import Nav from "./components/Hero/Nav";

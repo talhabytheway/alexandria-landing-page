@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="py-10 md:py-16 lg:py-20 xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6.75rem] lg:max-w-[1500px] flex flex-col gap-6 lg:flex-row justify-between w-full">
         <div className="">
           <img src={logo} alt="" className="h-12 mb-6 mx-auto lg:mx-0"/>
-          <span className="hidden lg:block text-[14px]">© 2022 Alexandria Labs. All Right Reserved</span>
+          <span className="hidden lg:block text-[14px] opacity-70">© 2022 Alexandria Labs. All Right Reserved</span>
           <span className="lg:hidden flex flex-row gap-4 justify-center flex-wrap">
               <a href="https://www.twitter.com/_talhaism"><img src={twitter} alt="" className="inline h-[35px]" /></a>
               <a href="https://www.twitter.com/_talhaism"><img src={discord} alt="" className="inline h-[35px]" /></a>

@@ -47,7 +47,7 @@ const Feature = () => {
         </div>
       </div>
       <div className="">
-        <Carousel ref={carouselRef} breakPoints={breakPoints} className=""  outerSpacing={width>= 1024 ? 70 : 0}>
+        <Carousel ref={carouselRef} breakPoints={breakPoints} className="" itemPadding={[20,20]} outerSpacing={width>= 1024 ? 70 : 0}>
           <Item>
             <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
