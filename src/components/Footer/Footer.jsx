@@ -6,7 +6,7 @@ import twitter from '../../assets/twitter.svg'
 
 const Footer = () => {
   return (
-    <div className="bg-[#0E0F1E] text-[#F6F6F6] font-open mt-24 md:">
+    <div className="bg-[#0E0F1E] text-[#F6F6F6] font-open mt-6 md:mt-24 md:">
       <div className="py-10 md:py-16 lg:py-20 xl:mx-auto px-[1.5rem] md:px-[3rem] lg:px-[6.75rem] lg:max-w-[1500px] flex flex-col gap-6 lg:flex-row justify-between w-full">
         <div className="">
           <img src={logo} alt="" className="h-12 mb-6 mx-auto lg:mx-0"/>
@@ -30,7 +30,7 @@ const Footer = () => {
               <li><a href="https://www.twitter.com/_talhaism"><img src={discord} alt="" className="inline pr-2" />Discord</a></li>
             </ul>
         </div>
-          <span className="lg:hidden text-[14px] text-center">© 2022 Alexandria Labs. All Right Reserved</span>
+          <span className="lg:hidden text-[14px] text-center opacity-70">© 2022 Alexandria Labs. All Right Reserved</span>
       </div>
     </div>
   );

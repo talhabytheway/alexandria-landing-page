@@ -77,7 +77,7 @@ const Nav = () => {
         </ul>
         <div className="flex gap-2 md:gap-6 flex-wrap items-center lg:hidden">
           <button
-            className={`transition-all ease-in duration-500 p-2 md:px-5 md:py-3 border text-[12px] sm:text-[14px] md:text-[16px] rounded-md hover:cursor-pointer hover:duration-500 text-purp hover:border-white hover:bg-transparent hover:!text-white bg-white inline-block ${
+            className={`transition-all ease-in duration-500 px-4 py-[10px] md:px-5 md:py-3 border text-[12px] sm:text-[14px] md:text-[16px] rounded-md hover:cursor-pointer hover:duration-500 text-purp hover:border-white hover:bg-transparent hover:!text-white bg-white inline-block ${
               open ? " hidden " : ""
             }`}
           >

@@ -7,6 +7,7 @@ import arrow from "./../../assets/arrow.svg";
 import moby from "./../../assets/moby.png";
 import war from "./../../assets/war.png";
 import leagues from "./../../assets/leagues.png";
+import eth from "./../../assets/ethereum.svg";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1,},
@@ -48,7 +49,7 @@ const Feature = () => {
       <div className="">
         <Carousel ref={carouselRef} breakPoints={breakPoints} className=""  outerSpacing={width>= 1024 ? 70 : 0}>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:!text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
@@ -57,19 +58,19 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">Moby Dick</h4>
+                <h4 className="font-bold font-open pb-2">Moby Dick</h4>
                 <p className="font-open text-[14px]">
                   Herman Melville | Collector’s Edition
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 0.25 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 0.25 ETH</span></div>
                 </div>
               </div>
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
@@ -78,19 +79,19 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">The War of The Worlds</h4>
+                <h4 className="font-bold font-open pb-2">The War of The Worlds</h4>
                 <p className="font-open text-[14px]">
                   H.G. Wells | Collector’s Edition
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 0.19 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 0.19 ETH</span></div>
                 </div>
               </div>
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
@@ -99,21 +100,21 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">
+                <h4 className="font-bold font-open pb-2">
                   20,000 Leagues Under The Sea
                 </h4>
                 <p className="font-open text-[14px]">
                   Jules Verne, Victoria Bloke
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 1.3 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 1.3 ETH</span></div>
                 </div>
               </div>
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:text-white hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={moby}
@@ -122,19 +123,19 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">Moby Dick</h4>
+                <h4 className="font-bold font-open pb-2">Moby Dick</h4>
                 <p className="font-open text-[14px]">
                   Herman Melville | Collector’s Edition
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 0.25 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 0.25 ETH</span></div>
                 </div>
               </div>
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={war}
@@ -143,19 +144,19 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">The War of The Worlds</h4>
+                <h4 className="font-bold font-open pb-2">The War of The Worlds</h4>
                 <p className="font-open text-[14px]">
                   H.G. Wells | Collector’s Edition
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 0.19 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 0.19 ETH</span></div>
                 </div>
               </div>
             </div>
           </Item>
           <Item>
-            <div className="cursor-pointer mx-2 p-4 lg:p-6 xl:mx-3 bg-white text-dark hover:bg-purp rounded-lg">
+            <div className="cursor-pointer md:mx-2 p-4 lg:p-6 xl:mx-3 md:bg-white md:text-dark text-white bg-purp rounded-lg">
               <div className="">
                 <img
                   src={leagues}
@@ -164,15 +165,15 @@ const Feature = () => {
                 />
               </div>
               <div className="pt-4 md:hidden">
-                <h4 className="font-bold font-open">
+                <h4 className="font-bold font-open pb-2">
                   20,000 Leagues Under The Sea
                 </h4>
                 <p className="font-open text-[14px]">
                   Jules Verne, Victoria Bloke
                 </p>
-                <div className="flex justify-between font-open font-semibold">
+                <div className="flex justify-between font-open font-semibold items-center pt-[10px]">
                   <span>...</span>
-                  <span>♦ 1.3 ETH</span>
+                  <div className="flex items-center"><img src={eth} alt="" className="inline h-[20px] pr-2"/><span> 1.3 ETH</span></div>
                 </div>
               </div>
             </div>

@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="relative bg-[#F6F6F6]">
     <div className="bg-[url('./assets/hero-png.png')] bg-no-repeat bg-top bg-[length:cover_70%] md:bg-[length:cover_67%] xxl:bg-[length:auto_85%]">
-    <div className="bg-[url('./assets/heroArch.png')] bg-no-repeat lg:bg-[length:100%_100%] bg-[length:100%_100vh] " >
+    <div className="bg-[url('./assets/archMob.svg')] lg:bg-[url('./assets/heroArch.png')] bg-no-repeat lg:bg-[length:100%_65%] bg-[length:87vw_auto] bg-top" >
       <Nav />
       <Hero />
       <Feature />

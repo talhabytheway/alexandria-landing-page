@@ -6,7 +6,7 @@ import logo from "./../../assets/logo.svg";
 
 const Welcome = () => {
   return (
-    <div className='w-[80%] md:w-[80%] mx-auto text-center font-open text-navy'>
+    <div className='w-[100%] px-6 md:w-[80%] md:px-0 mx-auto text-center font-open text-navy'>
       <img src={bar} alt="" className='py-12 md:py-14 w-full'/>
       <h2 className="text-dark font-prata text-[40px] md:text-[44px] lg:text-[48px]">
       Welcome to the <span className="text-blue">wall of</span>

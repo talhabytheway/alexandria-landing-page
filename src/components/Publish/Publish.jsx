@@ -14,8 +14,8 @@ const Publish = () => {
             className=" absolute top-[-20%] sm:top-[-25%] lg:top-auto lg:bottom-[35%] backdrop-blur-[13px] bg-white bg-opacity-[15%] rounded-2xl max-w-[80%] md:max-w-[60%] lg:max-w-[40%] xl:max-w-[60%] mx-auto left-0 right-0 lg:left-auto lg:right-auto lg:mx-0"
           />
         </div>
-        <div className="text-white w-full lg:w-[50%]  flex flex-col gap-2 lg:gap-6">
-          <h3 className="font-prata text-[40px] md:text-[44px] lg:text-[48px]">
+        <div className="text-white w-[264px] xs:w-full lg:w-[50%] xxl:max-w-[485px] mb-10 lg:mb-0 xl:mr-[56px] flex flex-col gap-2 lg:gap-6">
+          <h3 className="font-prata text-[40px] md:text-[44px] lg:text-[48px] leading-[120%] lg:leading-[auto]">
             Publish a book NFT
           </h3>
           <p className="text-[#F6F6F6] font-thin font-open text-[20px] md:text-[22px] lg:text-[24px]">
@@ -23,8 +23,7 @@ const Publish = () => {
             ante blandit ligula, vel elementum urna velit eu lorem
           </p>
           <button className=" text-white w-fit font-medium px-6 md:px-10 py-3 text-[16px] md:text-[20px] rounded-md hover:cursor-pointer hover:duration-500 bg-gradient-to-r from-blue to-pink hover:bg-gradient-to-tr">
-            {" "}
-            PUBLISH WORKS{" "}
+            PUBLISH WORKS
             <img src={arrow} alt="" className="inline-block pl-2" />
           </button>
         </div>
