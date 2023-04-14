@@ -15,7 +15,7 @@ const Subscribe = () => {
             Duis non orci justo. Nulla lobortis, elit ac imperdiet
           </p>
         </div>
-        <div className="relative w-full max-w-[600px] flex items-center">
+        <div className="relative w-full max-w-[532px] flex items-center">
           <input
             type="text"
             name=""
